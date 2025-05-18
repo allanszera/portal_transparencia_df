@@ -53,7 +53,7 @@ print(df['LÍQUIDO'])
 
 
 
-# Salve o DataFrame tratado em um único arquivo Parquet
+# Salve o DataFrame tratado em um único arquivo Parquet#
 df.to_parquet("data/servidores_tratado.parquet", index=False)
 
 print("Arquivo data/servidores_tratado.parquet salvo com sucesso!")
