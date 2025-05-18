@@ -37,10 +37,10 @@ colunas_valores = [
 for col in colunas_valores:
     df[col] = (
         df[col].astype(str)
-        .str.replace('.', '', regex=False)      # Remove pontos de milhar (se houver)
-        .str.replace(',', '.', regex=False)     # Troca vírgula decimal por ponto
-        .str.replace('R$', '', regex=False)     # Remove símbolo R$ se houver
-        .str.strip()                            # Remove espaços
+        .str.replace('.', '', regex=False)      
+        .str.replace(',', '.', regex=False)     
+        .str.replace('R$', '', regex=False)     
+        .str.strip()                            
     )
     df[col] = pd.to_numeric(df[col], errors='coerce')
 
