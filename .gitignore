@@ -1,0 +1,35 @@
+# Ambiente virtual Python
+.venv/
+venv/
+ENV/
+env/
+
+# Arquivos de configuração e variáveis de ambiente
+.env
+*.env
+
+# Dados brutos e processados
+data/
+*.csv
+*.parquet
+*.xlsx
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de download (exemplo)
+*.zip
+*.tar
+*.gz
