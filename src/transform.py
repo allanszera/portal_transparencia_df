@@ -51,7 +51,7 @@ print(df[['MÊS','ANO']].drop_duplicates())
 print(df['LÍQUIDO'])
 
 
-# Após tratamento dos valores numéricos...
+
 
 # Salve o DataFrame tratado em um único arquivo Parquet
 df.to_parquet("data/servidores_tratado.parquet", index=False)
